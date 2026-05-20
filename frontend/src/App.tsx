@@ -28,7 +28,7 @@ export default function App() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/predict",
+        "https://phishing-url-detector-86ab.onrender.com/predict",
         {
           method: "POST",
           headers: {
